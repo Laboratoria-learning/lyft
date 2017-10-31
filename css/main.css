@@ -1,10 +1,18 @@
 /*Estilos de tu proyecto
  */
+<<<<<<< HEAD
  * {
    margin: 0;
    box-sizing: border-box;
    border-style: none;
    font-family: 'Montserrat', sans-serif;
+=======
+body {
+  box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   width: 100%;
+>>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
  }
  /*alineando el gif con el contenedor principal de navegación*/
 .container {
@@ -12,9 +20,22 @@
    background-image: url(../assets/images/hero.gif);
    /*display: inline-block;*/
    width: 100%;
+<<<<<<< HEAD
    height: 700px;
    background-repeat: no-repeat;
    background-size: cover;
+=======
+   height: 40%;;
+ }
+ .image-principal {
+ }
+.navigator {
+   display: inline-block;
+   width: 300px;
+   margin-left: 50px;
+   z-index: 1000;
+
+>>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
 }
  .contenido {
   outline: 1px solid red;
@@ -35,3 +56,55 @@ h1 {
 .text-1 {
   margin-top: 10px;
 }
+<<<<<<< HEAD
+=======
+input {
+  border-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.firstcontainer {
+  outline: 1px solid green;
+  width: 55%;
+  height: 40%;
+  background-image: image(assets/images/hero.gif);
+}
+
+.lyagif {
+  position: relative;
+  width: 926px;
+  height: 534px;
+}
+.lyapng {
+  float:
+  width: 67px;
+  height: 49px;
+}
+.firstsection {
+  color: white;
+  width: 100%;
+  background: linear-gradient(#76278F, #2B1E66);
+  column-count: 2;
+  height: 614px;
+  text-align: left;
+}
+.information {
+  margin-top: 12%;
+  margin-left: 21%;
+  width: 569px;
+}
+.tittle1 {
+  margin-bottom: 3%;
+}
+.information p {
+  margin-bottom: 7%;
+}
+
+.aplicationpic img {
+  width: 477px;
+  height: 484px;
+  margin-top: 9%;
+  margin-left: 14%;
+}
+>>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
