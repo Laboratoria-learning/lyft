@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
    font-family: 'Montserrat', sans-serif;
    margin: 0px;
+   width: 100%;
  }
  /*alineando el gif con el contenedor principal de navegación*/
 .gif {
