@@ -1,7 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
-/CLASES REUTILIZABLES/
+/*CLASES REUTILIZABLES*/
 body {
 font-family: 'Montserrat', sans-serif;
 }
@@ -16,7 +16,7 @@ a {
 
 .text-white {
   color: #fff;
-} /verificar si lo necesitaré de verdad/
+} /*verificar si lo necesitaré de verdad*/
 
 li {
   list-style: none;
@@ -65,21 +65,45 @@ footer div h4 a {
 
 footer div ul li a {
   color: #fff;
+  line-height: 50px;
+}
+
+.login, .partner, .learn {
+  display: inline-block;
+  margin: 2% 5% 2%;
+}
+
+.login ul, .partner ul, .learn ul {
+  padding-left: 0;
 }
 
 .app-stores {
-
+  width: 10%;
+  margin: 2% 3% 2% 7%;
+  display: inline-block;
 }
+
+.ban {
+  width: 100%;
+  padding: 5%;
+}
+
+.ban img {
+  box-sizing: border-box;
+  height: 40px;
+  width: 135px;
+}
+
 
 .base {
   text-align: center;
   width: 60%;
-  margin: 2% 18% 2%;
+  margin: 2% 19% 2%;
 }
 
 .social-network {
   width: 100%;
-  height: 1%;
+  height: 5%;
 }
 
 .icon-facebook, .icon-instagram, .icon-twitter {
@@ -91,5 +115,13 @@ footer div ul li a {
 }
 
 /*footer div ul li a i.icon-facebook, footer div ul li a i.icon-instagram, footer div ul li a i.icon-twitter {
-  display: inline-block;
+  font-size: 20px;
+}*/
+
+hr {
+  margin-bottom: 5%;
+}
+
+/*div.base span {
+  margin-top: 10%;
 }*/
