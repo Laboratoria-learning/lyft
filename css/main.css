@@ -2,6 +2,12 @@
  * Estilos de tu proyecto
  */
 /*CLASES REUTILIZABLES*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0; 
+}
+
 body {
 font-family: 'Montserrat', sans-serif;
 }
@@ -18,30 +24,65 @@ a {
   color: #fff;
 } /*verificar si lo necesitaré de verdad*/
 
-li {
-  list-style: none;
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
 
 /*CLASES ESPECÍFICAS*/
+li {
+  list-style: none;
+  display: inline-block;
+}
 
 /*Encabezado*/
 header {
-  padding: 10px;
-}
-
-.logo-container {
-  width: 40%;
-}
-
-.logo {
-  width: 10%;
+  background: linear-gradient(#76278F, #2B1E66);
+  padding: 30px;
+  height: 15vh;
+  width: 100%;
 }
 
 nav, header button {
   display: inline-block;
 }
 
+/* Logo */
+.logo-container {
+  width: 40%;
+}
+
+.logo {
+  width: 10%;
+  margin-left: 50px; 
+}
+
+/* Menú */
+.menu {
+  right: 90px;
+  position: absolute;
+}
+
+.list {
+  padding: 15px;
+}
+
+.btn-list {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d8dce6;
+  background-color: transparent;
+  font-size: 18px;
+}
+
 /*Primera sección*/
+#section-one {
+  height: 60vh;
+  width: 100%;
+}
 
 /*Segunda sección*/
 
