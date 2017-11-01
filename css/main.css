@@ -1,110 +1,86 @@
 /*Estilos de tu proyecto
  */
-<<<<<<< HEAD
  * {
-   margin: 0;
    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    width: 100%;
+ }
+
+  /*alineando el gif con el contenedor principal de navegación*/
+
+ .navigator {
+    display: inline-block;
+    width: 300px;
+    margin-left: 50px;
+    z-index: 1000;
+
+
+ }
+ .container {
+
+ }
+ li {
+   width: 80px;
+   float: left;
+   list-style: none;
+ }
+ a {
+   text-decoration: none;
+ }
+ h1 {
+   font-size: 30px;
+   width: 70px;
+ }
+ .text-1 {
+   margin-top: 10px;
+ }
+ input {
    border-style: none;
-   font-family: 'Montserrat', sans-serif;
-=======
-body {
-  box-sizing: border-box;
-   font-family: 'Montserrat', sans-serif;
-   margin: 0px;
+ }
+ .uppercase {
+   text-transform: uppercase;
+ }
+ .firstcontainer {
+   outline: 1px solid green;
+   width: 55%;
+   height: 40%;
+   background-image: image(assets/images/hero.gif);
+ }
+
+ .lyagif {
+   position: relative;
+   width: 926px;
+   height: 534px;
+ }
+ .lyapng {
+   float:
+   width: 67px;
+   height: 49px;
+ }
+ .firstsection {
+   color: white;
    width: 100%;
->>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
+   background: linear-gradient(#76278F, #2B1E66);
+   column-count: 2;
+   height: 614px;
+   text-align: left;
  }
- /*alineando el gif con el contenedor principal de navegación*/
-.container {
-   outline:1px solid red ;
-   background-image: url(../assets/images/hero.gif);
-   /*display: inline-block;*/
-   width: 100%;
-<<<<<<< HEAD
-   height: 700px;
-   background-repeat: no-repeat;
-   background-size: cover;
-=======
-   height: 40%;;
+ .information {
+   margin-top: 12%;
+   margin-left: 15%;
+   width: 569px;
  }
- .image-principal {
+ .tittle1 {
+   margin-bottom: 3%;
  }
-.navigator {
-   display: inline-block;
-   width: 300px;
-   margin-left: 50px;
-   z-index: 1000;
+ .information p {
+   margin-bottom: 7%;
+ }
 
->>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
-}
- .contenido {
-  outline: 1px solid red;
-  width: 100px;
-}
-li {
-  width: 80px;
-  float: left;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-h1 {
-  font-size: 30px;
-  width: 70px;
-}
-.text-1 {
-  margin-top: 10px;
-}
-<<<<<<< HEAD
-=======
-input {
-  border-style: none;
-}
-.uppercase {
-  text-transform: uppercase;
-}
-.firstcontainer {
-  outline: 1px solid green;
-  width: 55%;
-  height: 40%;
-  background-image: image(assets/images/hero.gif);
-}
-
-.lyagif {
-  position: relative;
-  width: 926px;
-  height: 534px;
-}
-.lyapng {
-  float:
-  width: 67px;
-  height: 49px;
-}
-.firstsection {
-  color: white;
-  width: 100%;
-  background: linear-gradient(#76278F, #2B1E66);
-  column-count: 2;
-  height: 614px;
-  text-align: left;
-}
-.information {
-  margin-top: 12%;
-  margin-left: 21%;
-  width: 569px;
-}
-.tittle1 {
-  margin-bottom: 3%;
-}
-.information p {
-  margin-bottom: 7%;
-}
-
-.aplicationpic img {
-  width: 477px;
-  height: 484px;
-  margin-top: 9%;
-  margin-left: 14%;
-}
->>>>>>> e8846126d66f789cb4a19154a68b761ed91357ca
+ .aplicationpic img {
+   width: 477px;
+   height: 484px;
+   margin-top: 9%;
+   margin-left: 14%;
+ }
