@@ -201,20 +201,104 @@ nav, header button {
   margin-left: 90px;
   position: absolute;
   width: 380px;
+
 }
 
 /*Tercera sección*/
+#section-three {
+  margin-top: 60%;
+  position: absolute; 
+  width: 100%;
+}
+
+.text-box-section-three {
+  margin-top: 400px;
+  position: absolute;
+  margin-left: 50px;
+  width: 25%;
+}
+
+.article-h5 {
+  margin-bottom: 0px;
+}
+
+.watch-a {
+  font-size: 8px;
+  color: #000;
+}
+
+.title-h2 {
+  margin-bottom: 20px;
+}
+
+.title-h2-p {
+  line-height: 20px;
+}
+
+.box-video {
+  display: block; 
+  left: 35%;
+  margin-top: 323px;
+  position: absolute;
+  height: 380px;
+  width: 65%;
+}
 
 /*Cuarta sección*/
+#section-four {
+  margin-top: 100%;
+  position: absolute; 
+  width: 100%;
+}
+
+.text-box-section-four {
+  margin-left: 50px;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+  width: 25%;
+}
+
+.box-video-four {
+  display: block; 
+  margin-top: 188px;
+  margin-right: 25px;
+  position: absolute;
+  height: 380px;
+  width: 65%;
+}
 
 /*Quinta sección*/
+#section-five {
+  margin-top: 75%;
+  position: absolute; 
+  width: 100%;
+}
+
+.text-box-section-five {
+  margin-top: 930px;
+  position: absolute;
+  margin-left: 50px;
+  width: 25%;
+}
+
+.box-video-five {
+  display: block; 
+  left: 35%;
+  margin-top: 890px;
+  position: absolute;
+  height: 380px;
+  width: 65%;
+}
 
 /*Pie de página*/
-
 footer {
   background-color: #333447;
   color: #fff;
   padding: 1%;
+  position: absolute;
+  top: 318%;
+  width: 100%;
 }
 
 footer div h4 a {
