@@ -1,92 +1,30 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+La siguiente página está conformada por 5 partes:
+  - Header: se encuentra en la parte superior de toda la página y contiene lo siguiente:
 
-***
+    1. Logo: se tiene un logo pequeño en la parte superior izquierda.
+    2. Menú: se tiene un menú con tres opciones y un botón de inicio de sesión.
+    3. Imagen principal: se tiene una imágen gif de fondo de toda esa sección.
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+  - Sección 1: es la segunda sección que contiene lo siguiente:
 
-## Flujo de trabajo
+    1. Article: se tiene un caja al lado izquierdo y esta contiene lo siguiente:
+        * Caja: está representada con un aticle el cual da a conocer una descripción de lo que tiene al lado, este mismo contiene un subtítulo pequeño, un título y un texto en general.
+        * video: se tiene un video a la izquierda.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+  - Sección 2: es la tercera sección que contiene lo siguiente:
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+    1. Article: al igual que nuestra sección 1, en esta sección encontramos una caja y un video al lado pero para este caso la caja se encuentra a la izquierda y el video al lado derecho.
+  
+  - Sección 3: es la cuarta sección que tiene la misma estructura que la sección 1.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+  - Sección 4: es nuestra quinta sección y contiene lo siguiente:
+  
+    1. Primera parte: se encuentran tres columnas de links y una columna de imágenes (App Store, Google Play y Microsoft).
+    2. Segunda parte: se encuentran tres íconos de redes sociales y el texto de Copyright.
 
-## Objetivo
-
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+Se realizó lo más parecido posible a nuestra página de ejemplo **Lyft**, como se puede observar en la siguiente imagen:
 
 ![Lyft Website](docs/fullpage.png)
 
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible

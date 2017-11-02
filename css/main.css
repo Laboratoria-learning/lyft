@@ -1,3 +1,6 @@
+/*
+ * Estilos de tu proyecto
+ */
 /*CLASES REUTILIZABLES*/
 * {
   box-sizing: border-box;
@@ -299,6 +302,14 @@ footer {
   position: absolute;
   top: 342%;
   width: 100%;
+}
+
+.title-login:hover, .title-partner:hover, .title-learn:hover {
+  text-decoration: underline #fff;
+}
+
+.list-hover:hover {
+  color: #ff00bf;
 }
 
 footer div h4 a {
