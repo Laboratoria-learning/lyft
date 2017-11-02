@@ -1,11 +1,8 @@
-/*
- * Estilos de tu proyecto
- */
 /*CLASES REUTILIZABLES*/
 * {
   box-sizing: border-box;
   padding: 0;
-  margin:0; 
+  margin:0;
 }
 
 body {
@@ -24,20 +21,20 @@ a {
   color: #fff;
 } /*verificar si lo necesitaré de verdad*/
 
-.right {
+/*.right {
   float: right;
 }
 
 .left {
   float: left;
-}
-
-/*CLASES ESPECÍFICAS*/
+}*/
 
 li {
   list-style: none;
   display: inline-block;
 }
+
+/*CLASES ESPECÍFICAS*/
 
 /*Encabezado*/
 .image-hero{
@@ -63,7 +60,7 @@ nav, header button {
 
 .logo {
   width: 10%;
-  margin-left: 30px; 
+  margin-left: 30px;
 }
 
 /* Menú */
