@@ -297,7 +297,7 @@ footer {
   color: #fff;
   padding: 1%;
   position: absolute;
-  top: 318%;
+  top: 342%;
   width: 100%;
 }
 
@@ -320,7 +320,7 @@ footer div ul li a {
 }
 
 .app-stores {
-  width: 10%;
+  width: 20%;
   margin: 2% 3% 2% 7%;
   display: inline-block;
 }
@@ -336,6 +336,15 @@ footer div ul li a {
   width: 135px;
 }
 
+.list-li {
+  display: inline-block;
+  position: absolute;
+}
+
+.list-li {
+  display: inline-block;
+  position: relative;
+}
 
 .base {
   text-align: center;
