@@ -33,37 +33,44 @@ a {
 }
 
 /*CLASES ESPECÍFICAS*/
+
 li {
   list-style: none;
   display: inline-block;
 }
 
 /*Encabezado*/
-header {
-  background: linear-gradient(#76278F, #2B1E66);
-  padding: 30px;
-  height: 15vh;
+.image-hero{
+  background: url(../assets/images/hero.gif) 0px -98px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
   width: 100%;
+  height: 100vh;
 }
 
 nav, header button {
   display: inline-block;
 }
 
+
 /* Logo */
 .logo-container {
-  width: 40%;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
 }
 
 .logo {
   width: 10%;
-  margin-left: 50px; 
+  margin-left: 30px; 
 }
 
 /* Menú */
 .menu {
   right: 90px;
   position: absolute;
+  padding: 30px;
 }
 
 .list {
@@ -80,9 +87,68 @@ nav, header button {
 
 /*Primera sección*/
 #section-one {
-  height: 60vh;
+  width: 100%;
+  margin-top: 110px;
+}
+
+.text-box{
+  background-color: #fff;
+  padding: 60px;
+  margin-left: 870px;
+  min-height: 60vh;
+}
+
+.text-color, .text-h3 {
+  color: #352384;
+  margin-top: -25px;
+}
+
+.text-h3 {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+/* Caja para Phone number */
+.info-input {
+  border: none;
+  border-bottom: 1px solid #352384;
+  font-size: 16px;
+  color: #cbd2e0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  outline: none;
   width: 100%;
 }
+
+/* Boton del formulario de la derecha - section one */
+.btn {
+  background-color: #ff00bf;
+  border: 1px solid #ff00bf;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+  margin-top: 20px;
+  position: absolute;
+  width: 140px;
+  height: 50px;
+}
+
+.signup {
+  float: right;
+  margin-top: 30px;
+  right: 100px;
+}
+
+/*Segunda sección*/
+#section-two {
+  background-image: linear-gradient(#74268e, #2B1E66);
+  width: 100%;
+  height: 100vh
+};
 
 /*Segunda sección*/
 
