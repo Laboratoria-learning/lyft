@@ -1,3 +1,408 @@
-/*
- * Estilos de tu proyecto
- */
+/*CLASES REUTILIZABLES*/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+/*CLASES ESPECÍFICAS*/
+
+/*Encabezado*/
+.image-hero{
+  background: url(../assets/images/hero.gif) 0px -98px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-color: transparent;
+  border-bottom-style: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+nav, header button {
+  display: inline-block;
+}
+
+
+/* Logo */
+.logo-container {
+  height: 500px;
+  padding: 30px;
+  width: 500px;
+}
+
+.logo {
+  margin-left: 30px;
+  width: 10%;
+}
+
+/* Menú */
+.menu {
+  padding: 30px;
+  right: 90px;
+  position: absolute;
+}
+
+.list {
+  display: inline-block;
+  padding: 15px;
+}
+
+.btn-list {
+  background-color: transparent;
+  border: 1px solid #d8dce6;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/*Primera sección*/
+#section-one {
+  height: 67vh; /*revisar*/
+  margin-top: 110px;
+  width: 100%;
+}
+
+.text-box{
+  background-color: #fff;
+  display: inline-block;
+  float: right;
+  height: 100vh;
+  padding: 60px;
+  padding-bottom: 100px;
+  width: 40%;
+}
+
+.text-box h1 {
+  font-size: 40px;
+}
+
+.text-color, .text-h3, .signup {
+  color: #352384;
+  margin-top: -15px;
+}
+
+.text-h3 {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Caja para Phone number */
+.info-input {
+  border: none;
+  border-bottom: 1px solid #352384;
+  color: #cbd2e0;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  outline: none;
+  width: 100%;
+}
+
+/* Boton del formulario de la derecha - section one */
+.btn {
+  background-color: #ff00bf;
+  border: 1px solid #ff00bf;
+  border-radius: 5px;
+  float: left;
+  font-size: 16px;
+  height: 50px;
+  margin-top: 30px;
+  padding: 5px;
+  position: absolute;
+  width: 9%;
+}
+
+input.btn.text-white {
+  font-weight: bold;
+}
+
+.signup {
+  margin-top: 40px;
+  margin-left: 200px;
+  position: absolute;
+  text-decoration: underline;
+}
+
+.article-p, .article-p-2 {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.article-p {
+  padding-top: 100px;
+}
+
+.article-p-2 {
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+
+/*Segunda sección*/
+#section-two {
+  background-image: -webkit-linear-gradient(#6f268b, #2B1E66);
+  background-image: -o-linear-gradient(#6f268b, #2B1E66);
+  background-image: linear-gradient(#6f268b, #2B1E66);
+  border-top-color: transparent;
+  border-top-style: hidden;
+  margin-top: 39%;
+  position: absolute;
+  width: 100%;
+}
+
+.container-section-two {
+  height: 100%;
+  margin-top: 60px;
+}
+
+.box-one, .box-two, .box-three, .phone-section-two {
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.box-one, .box-two {
+  width: 50%
+}
+
+.box-three {
+  width: 60%;
+}
+
+.box-one h1, .box-two h1, .box-three h1 {
+  font-size: 28px;
+}
+
+.box-p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+/* Imagen de teléfono */
+.phone-section-two {
+  height: 500px;
+  padding: 30px;
+}
+
+.image-phone {
+  margin-left: 90px;
+  position: absolute;
+  width: 380px;
+
+}
+
+/*Tercera sección*/
+#section-three {
+  margin-top: 50.4%;
+  position: absolute;
+  width: 100%;
+}
+
+.text-box-section-three {
+  margin-left: 5%;
+  margin-top: 400px;
+  position: absolute;
+  width: 25%;
+}
+
+.article-h5 {
+  margin-bottom: 0px;
+}
+
+.watch-a {
+  color: #000;
+  font-size: 8px;
+}
+
+.title-h2 {
+  margin-bottom: 20px;
+}
+
+.title-h2-p {
+  line-height: 24px;
+  width: 70%;
+}
+
+.box-video {
+  display: block;
+  height: 500px;
+  left: 35%;
+  margin-top: 323px;
+  position: absolute;
+  width: 65%;
+}
+
+/*Cuarta sección*/
+#section-four {
+  margin-top: 83.7%;
+  position: absolute;
+  width: 100%;
+}
+
+.text-box-section-four {
+  margin-left: 5%;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+  width: 25%;
+}
+
+.box-video-four {
+  display: block;
+  height: 500px;
+  margin-top: 188px;
+  margin-right: 25px;
+  position: absolute;
+  width: 65%;
+}
+
+/*Quinta sección*/
+#section-five {
+  height: 100vh;
+  margin-top: 73%;
+  position: absolute;
+  width: 100%;
+}
+
+.text-box-section-five {
+  margin-top: 930px;
+  margin-left: 5%;
+  position: absolute;
+  width: 25%;
+}
+
+.box-video-five {
+  display: block;
+  height: 500px;
+  left: 35%;
+  margin-top: 890px;
+  position: absolute;
+  width: 65%;
+}
+
+/*Pie de página*/
+footer {
+  background-color: #333447;
+  color: #fff;
+  padding: 1%;
+  position: absolute;
+  top: 292.8%;
+  width: 100%;
+}
+
+h4.text-uppercase {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30%;
+}
+
+.title-login:hover, .title-partner:hover, .title-learn:hover {
+  text-decoration: underline #fff;
+}
+
+.list-hover:hover {
+  color: #ff00bf;
+}
+
+footer div h4 a {
+  color: #fff;
+}
+
+footer div ul li a {
+  color: #fff;
+  line-height: 50px;
+}
+
+.login, .partner, .learn {
+  display: inline-block;
+  margin: 2% 7% 2%;
+}
+
+.learn {
+  vertical-align: top;
+}
+
+.login ul, .partner ul, .learn ul {
+  padding-left: 0;
+}
+
+.app-stores {
+  display: inline-block;
+  margin: 2% 3% 2% 13%;
+  width: 20%;
+}
+
+.ban {
+  padding: 5%;
+  width: 100%;
+}
+
+.ban img {
+  box-sizing: border-box;
+  height: 40px;
+  width: 135px;
+}
+
+.list-li {
+  display: inline-block;
+  position: absolute;
+}
+
+.list-li {
+  display: inline-block;
+  position: relative;
+}
+
+.base {
+  margin: 2% 19% 2%;
+  text-align: center;
+  width: 60%;
+}
+
+.social-network {
+  height: 5%;
+  width: 100%;
+}
+
+.icon-facebook, .icon-instagram, .icon-twitter {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+}
+
+hr {
+  margin-bottom: 5%;
+}
