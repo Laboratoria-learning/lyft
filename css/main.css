@@ -1,3 +1,137 @@
-/*
- * Estilos de tu proyecto
+/*Estilos de tu proyecto
  */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+ }
+ .fontcolor {
+   color: #352384;
+ }
+#menu {
+  /*outline: 1px solid orange ;*/
+  /*position: relative;*/
+  /*float: right;*/
+
+}
+
+.container {
+  background-image: url("../assets/images/hero.gif");
+  background-size: cover;
+  height: 610px;
+  /*margin-top: -100px;*/
+  background-position: bottom;
+
+}
+
+.navigator {
+  /*margin-top: 70px;*/
+  outline: 1px solid red ;
+  position: fixed;
+  width: 100%;
+  height: 115px;
+  font-size: 18px;
+  background-color: transparent;
+}
+.lyft-white {
+  /*outline: 1px solid green;*/
+  width: 68px;
+  height: 46px;
+  margin-left: 7%;
+  margin-top: 3%;
+  position: absolute;
+}
+.navigator ul {
+  padding-right: 130px;
+  padding-top: 45px;
+}
+.navigator ul li{
+  /*outline: 1px solid red ;*/
+  float: right;
+  display: inline;
+  width:100px;
+  text-align: center;
+  margin: 7px;
+  padding: 10px;
+ }
+ .li-border {
+   border-radius: 13%;
+  border-bottom-style: groove;
+  border: 2px solid white;
+ }
+ .navigator ul li a {
+   color: white;
+ }
+
+.container2 {
+  /*outline: 1px solid black ;*/
+  width: 525px;
+  height: 420px;
+  background-color: white;
+  float: right;
+  margin-top: 185px;
+  text-align:left;
+}
+.form1 {
+  width: 482px;
+  height: 283px;
+}
+.pinkbutton {
+  width: 186px;
+  height: 53px;
+
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.firstsection {
+  color: white;
+  width: 100%;
+  background:linear-gradient(#76278F, #2B1E66);
+  column-count: 2;
+  height: 640px;
+  text-align: left;
+
+}
+.information {
+  margin-top: 12%;
+  margin-left: 21%;
+  width: 569px;
+  height: 437px;
+}
+.tittle1 {
+  margin-bottom: 3%;
+  font-size: 25px;
+}
+.information p {
+  margin-bottom: 7%;
+}
+
+.aplicationpic img {
+  width: 477px;
+  height: 484px;
+  margin-top: 9%;
+  margin-left: -5%;
+}
+.section2 {
+  width: 100%;
+  height: 527px;
+  text-align: left;
+  display: inline;
+
+}
+.about1 {
+  outline: 1px solid red;
+  width: 367px;
+  display: block;
+  margin: 9%;
+}
+.firstvideo iframe{
+  float: none;
+  width: 935px;
+  height: 524px;
+}
