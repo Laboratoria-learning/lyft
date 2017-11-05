@@ -1,15 +1,12 @@
-/*
- * Estilos de tu proyecto
- */
 /*CLASES REUTILIZABLES*/
 * {
   box-sizing: border-box;
   padding: 0;
-  margin:0; 
+  margin:0;
 }
 
 body {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -22,7 +19,7 @@ a {
 
 .text-white {
   color: #fff;
-} /*verificar si lo necesitaré de verdad*/
+}
 
 .right {
   float: right;
@@ -32,11 +29,11 @@ a {
   float: left;
 }
 
-/*CLASES ESPECÍFICAS*/
-
 li {
   list-style: none;
 }
+
+/*CLASES ESPECÍFICAS*/
 
 /*Encabezado*/
 .image-hero{
@@ -46,7 +43,6 @@ li {
   border-bottom-color: transparent;
   border-bottom-style: hidden;
   position: absolute;
-  height: 100%;
   width: 100%;
 }
 
@@ -57,13 +53,13 @@ nav, header button {
 
 /* Logo */
 .logo-container {
-  padding: 30px;
   height: 500px;
+  padding: 30px;
   width: 500px;
 }
 
 .logo {
-  margin-left: 30px; 
+  margin-left: 30px;
   width: 10%;
 }
 
@@ -90,14 +86,22 @@ nav, header button {
 /*Primera sección*/
 #section-one {
   margin-top: 110px;
+  height: 67vh; /*revisar*/
   width: 100%;
 }
 
 .text-box{
   background-color: #fff;
-  margin-left: 865px;
-  max-height: 355px;
+  display: inline-block;
+  float: right;
+  height: 100vh;
   padding: 60px;
+  padding-bottom: 100px;
+  width: 40%;
+}
+
+.text-box h1 {
+  font-size: 40px;
 }
 
 .text-color, .text-h3, .signup {
@@ -106,12 +110,14 @@ nav, header button {
 }
 
 .text-h3 {
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: normal;
   letter-spacing: 1.5px;
   line-height: 15px;
   margin-top: 15px;
   margin-bottom: 0;
 }
+
 
 /* Caja para Phone number */
 .info-input {
@@ -133,20 +139,26 @@ nav, header button {
   border-radius: 5px;
   float: left;
   font-size: 16px;
+  height: 50px;
   margin-top: 30px;
   position: absolute;
-  height: 50px;
-  width: 140px;
+  width: 9%;
+}
+
+input.btn.text-white {
+  font-weight: bold;
 }
 
 .signup {
-  float: right;
   margin-top: 40px;
+  margin-left: 200px;
+  position: absolute;
   text-decoration: underline;
 }
 
 .article-p, .article-p-2 {
-  font-size: 9px;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 .article-p {
@@ -165,20 +177,20 @@ nav, header button {
   background-image: -o-linear-gradient(#6f268b, #2B1E66);
   background-image: linear-gradient(#6f268b, #2B1E66);
   border-top-color: transparent;
-  margin-top: 555px;
-  border-top-style: hidden; 
+  border-top-style: hidden;
+  margin-top: 39%;
   position: absolute;
   width: 100%;
 }
 
-.container-section-two{
+.container-section-two {
   height: 100%;
   margin-top: 60px;
 }
 
 .box-one, .box-two, .box-three, .phone-section-two {
-  margin-top: 40px;
   margin-left: 150px;
+  margin-top: 40px;
 }
 
 .box-one, .box-two {
@@ -189,8 +201,12 @@ nav, header button {
   width: 60%;
 }
 
+.box-one h1, .box-two h1, .box-three h1 {
+  font-size: 28px;
+}
+
 .box-p {
-  font-size: 12px;
+  font-size: 16px;
   padding-top: 10px;
 }
 
@@ -209,15 +225,15 @@ nav, header button {
 
 /*Tercera sección*/
 #section-three {
-  margin-top: 60%;
-  position: absolute; 
+  margin-top: 50.4%;
+  position: absolute;
   width: 100%;
 }
 
 .text-box-section-three {
+  margin-left: 5%;
   margin-top: 400px;
   position: absolute;
-  margin-left: 50px;
   width: 25%;
 }
 
@@ -226,8 +242,8 @@ nav, header button {
 }
 
 .watch-a {
-  font-size: 8px;
   color: #000;
+  font-size: 8px;
 }
 
 .title-h2 {
@@ -235,27 +251,28 @@ nav, header button {
 }
 
 .title-h2-p {
-  line-height: 20px;
+  line-height: 24px;
+  width: 70%;
 }
 
 .box-video {
-  display: block; 
+  display: block;
+  height: 500px;
   left: 35%;
   margin-top: 323px;
   position: absolute;
-  height: 380px;
   width: 65%;
 }
 
 /*Cuarta sección*/
 #section-four {
-  margin-top: 100%;
-  position: absolute; 
+  margin-top: 83.7%;
+  position: absolute;
   width: 100%;
 }
 
 .text-box-section-four {
-  margin-left: 50px;
+  margin-left: 5%;
   position: absolute;
   right: 50px;
   top: 250px;
@@ -263,34 +280,35 @@ nav, header button {
 }
 
 .box-video-four {
-  display: block; 
+  display: block;
+  height: 500px;
   margin-top: 188px;
   margin-right: 25px;
   position: absolute;
-  height: 380px;
   width: 65%;
 }
 
 /*Quinta sección*/
 #section-five {
-  margin-top: 75%;
-  position: absolute; 
+  height: 100vh;
+  margin-top: 73%;
+  position: absolute;
   width: 100%;
 }
 
 .text-box-section-five {
   margin-top: 930px;
+  margin-left: 5%;
   position: absolute;
-  margin-left: 50px;
   width: 25%;
 }
 
 .box-video-five {
-  display: block; 
+  display: block;
+  height: 500px;
   left: 35%;
   margin-top: 890px;
   position: absolute;
-  height: 380px;
   width: 65%;
 }
 
@@ -300,8 +318,14 @@ footer {
   color: #fff;
   padding: 1%;
   position: absolute;
-  top: 342%;
+  top: 292.8%;
   width: 100%;
+}
+
+h4.text-uppercase {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30%;
 }
 
 .title-login:hover, .title-partner:hover, .title-learn:hover {
@@ -323,7 +347,11 @@ footer div ul li a {
 
 .login, .partner, .learn {
   display: inline-block;
-  margin: 2% 5% 2%;
+  margin: 2% 7% 2%;
+}
+
+.learn {
+  vertical-align: top;
 }
 
 .login ul, .partner ul, .learn ul {
@@ -331,14 +359,14 @@ footer div ul li a {
 }
 
 .app-stores {
-  width: 20%;
-  margin: 2% 3% 2% 7%;
   display: inline-block;
+  margin: 2% 3% 2% 13%;
+  width: 20%;
 }
 
 .ban {
-  width: 100%;
   padding: 5%;
+  width: 100%;
 }
 
 .ban img {
@@ -359,31 +387,23 @@ footer div ul li a {
 
 .base {
   text-align: center;
-  width: 60%;
   margin: 2% 19% 2%;
+  width: 60%;
 }
 
 .social-network {
-  width: 100%;
   height: 5%;
+  width: 100%;
 }
 
 .icon-facebook, .icon-instagram, .icon-twitter {
   border: 1px solid #fff;
   border-radius: 30px;
-  padding: 10px;
   display: inline-block;
-  margin: 10px;
+  margin: 30px;
+  padding: 10px;
 }
-
-/*footer div ul li a i.icon-facebook, footer div ul li a i.icon-instagram, footer div ul li a i.icon-twitter {
-  font-size: 20px;
-}*/
 
 hr {
   margin-bottom: 5%;
 }
-
-/*div.base span {
-  margin-top: 10%;
-}*/
