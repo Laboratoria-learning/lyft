@@ -1,3 +1,72 @@
 /*
  * Estilos de tu proyecto
  */
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+#menu {
+  height: 100px;
+}
+#intro {
+  box-sizing: border-box;
+  height: 520px;/*de 420 a 520 por el tañano del menu que sera fijado con fixed*/
+
+}
+#intro >img {
+  width: 70%;
+  height: 100%;
+}
+#about {
+  height: 610px;
+  background-color: #71268C;
+  box-sizing: border-box;
+}
+#external_links {
+  height: 400px;
+  background-color: #333447;
+}
+
+#video, #video2 {/*Altura de la seccion donde estara el texto y el video*/
+  height: 460px;
+  display: inline-block;
+  /*margin-top: 0;
+  margin-bottom: 0;*/
+}
+#video2 >img {/*Proporción que ocupara el video, y la posición a la q estará:Video a la izquierda*/
+  width: 65%;
+  right: 33%;
+  height: 100%;
+}
+
+#video > img {/*Proporción que ocupara el video, y la posición a la q estará:Video a la derecha*/
+  width: 65%;
+  left: 33%;
+  height: 100%;
+}
+#about > img {
+  margin-top: 50px;
+  width: 45%;
+  left: 30%
+  height: 85%;
+
+
+}
+
+.foot {
+  height: 120px;
+  background-color: #333447;
+}
+.text-white {/*Texto que acompaña a cada video, es lo mismo para los tres*/
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.text-about {
+  color: white;
+  vertical-align: top;
+  width: 30%;
+  padding-left: 1%;
+  height: 100%
+  margin-right: 0;
+}
