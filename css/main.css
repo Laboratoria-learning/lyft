@@ -26,6 +26,17 @@
  #about > section > section > h1 {
    font-size: large;
  }
+ #back-menu > img {
+
+   float: left;
+   height: 45px;
+   width: 70px;
+   margin-top: 3%;
+   margin-left: 5%;
+ }
+ #back-menu > section > a {
+   margin-right: 8%;
+ }
 #back-menu {
   background-color: #27193F;
   height: 100px;
@@ -133,6 +144,9 @@
   background-color: #333447;
   height: 120px;
 }
+.float-right {
+  float: right;
+}
 .icon-twitter {
   color: white;
 }
@@ -160,17 +174,6 @@
   width: 30%;
 }
 
-#back-menu > img {
-
-  float: left;
-  height: 45px;
-  width: 70px;
-  margin-top: 3%;
-  margin-left: 5%;
-}
-#back-menu > section > a {
-  margin-right: 8%;
-}
 .white-letter {
   color: white;
   /*letter-spacing: 2px;*/
@@ -178,7 +181,4 @@
   margin-right: 5%;
   width: 30%;
 
-}
-.float-right {
-  float: right;
 }
