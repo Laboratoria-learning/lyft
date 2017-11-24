@@ -1,12 +1,56 @@
-/*
- * Estilos de tu proyecto
- */
  body {
    font-family: 'Montserrat', sans-serif;
  }
+ header {
+   background-color: #27193F;
+ }
+ input[type=text] {/*Tamaño del contenedor del formulario*/
+   color: #D3D3D3;
+   border: none;
+   border-bottom: 1px solid #9289BD;
+   font-size: 75%;
+   padding: 10px 408px 10px 1px;
+ }
+ #about {
+   background-color: #71268C;
+   box-sizing: border-box;
+   height: 610px;
+ }
+ #about > img {
+   float: right;/*Posicionando a la imagen del celular a la derecha*/
+   height: 85%;
+   margin-top: 50px;/*Bajando 50px a la imagen*/
+   margin-right: 10%;/*Recorriendo ligeramente a la izquierda a la imagen*/
+   width: 40%;
+ }
+ #about > section > section > h1 {
+   font-size: large;
+ }
+ #back-menu > img {
 
-#menu {
+   float: left;
+   height: 45px;
+   width: 70px;
+   margin-top: 3%;
+   margin-left: 5%;
+ }
+ #back-menu > section > a {
+   margin-right: 8%;
+ }
+#back-menu {
+  background-color: #27193F;
   height: 100px;
+  position: fixed;
+  opacity: 0.3;
+  width: 100%;
+}
+#bottom_become:hover {
+  background-color: white;
+  color: #FF00BF;
+}
+#external_links {
+  background-color: #333447;
+  height: 400px;
 }
 #intro {
   box-sizing: border-box;
@@ -14,59 +58,127 @@
 
 }
 #intro >img {
-  width: 70%;
   height: 100%;
+  width: 70%;
 }
-#about {
-  height: 610px;
-  background-color: #71268C;
-  box-sizing: border-box;
+#intro > section > h1{
+  color: #9289BD;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 15%;
+  letter-spacing: 1px;
+  width: 50%;
 }
-#external_links {
-  height: 400px;
-  background-color: #333447;
+#intro > section > h5 {
+  color: #9289BD;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+}
+#menu {
+  height: 100px;
+  width: 100%
 }
 
 #video, #video2 {/*Altura de la seccion donde estara el texto y el video*/
-  height: 460px;
   display: inline-block;
-  /*margin-top: 0;
-  margin-bottom: 0;*/
+  height: 460px;
 }
-#video2 >img {/*Proporción que ocupara el video, y la posición a la q estará:Video a la izquierda*/
-  width: 65%;
+#video2 >iframe {/*Proporción que ocupara el video, y la posición a la q estará:Video a la izquierda*/
+  height: 100%;
   right: 33%;
-  height: 100%;
+  width: 66.5%;
 }
 
-#video > img {/*Proporción que ocupara el video, y la posición a la q estará:Video a la derecha*/
-  width: 65%;
+#video > iframe {/*Proporción que ocupara el video, y la posición a la q estará:Video a la derecha*/
+  height: 100%;
   left: 33%;
-  height: 100%;
+  width: 66.5%;
 }
-#about > img {
-  margin-top: 50px;
-  width: 45%;
-  left: 30%
-  height: 85%;
-
-
+.bottom-become {
+  background: #FF00Bf;
+  border: 2px solid #FF00BF;
+  border-radius: 5px;
+  color: white;
+  margin-top: 25px;
+  margin-right: 180px;
+  padding: 10px 10px;
+}
+.border-bottom {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15%;
 }
 
+.column > img: hover {
+  color: #FF00BF;
+}
+.column {
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-top: 5%;
+  padding-left: 5%;
+  text-align: left;
+  width: 25%;
+}
+.column > img {
+  display: block;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.form {/*Formato de texto del formulario*/
+  display: inline-block;
+  float: right;
+  height: 10%;
+  padding-left: 5%;
+  width: 25%;
+}
+
+.font-size {
+  font-size: 25px;
+}
 .foot {
-  height: 120px;
   background-color: #333447;
+  height: 120px;
+}
+.float-right {
+  float: right;
+}
+.icon-twitter {
+  color: white;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mt-0 {
+  margin-top: : 0;
+}
+.mb-0 {
+  margin-bottom: 0;
 }
 .text-white {/*Texto que acompaña a cada video, es lo mismo para los tres*/
   display: inline-block;
+  padding-left: 5%;
   vertical-align: top;
-  width: 33%;
+  width: 28%;
 }
 .text-about {
   color: white;
+  display: inline-block;
+  margin-top: 50px;/*Bajando 50px al texto*/
+  padding-left: 10%;
   vertical-align: top;
   width: 30%;
-  padding-left: 1%;
-  height: 100%
-  margin-right: 0;
+}
+
+.white-letter {
+  color: white;
+  /*letter-spacing: 2px;*/
+  margin-top: 3%;
+  margin-right: 5%;
+  width: 30%;
+
 }
