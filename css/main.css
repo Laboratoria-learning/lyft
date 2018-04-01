@@ -4,7 +4,7 @@
  header {
    background-color: #27193F;
  }
- input[type=text] {/*Tamaño del contenedor del formulario*/
+ input[type=text] {
    color: #D3D3D3;
    border: none;
    border-bottom: 1px solid #9289BD;
@@ -14,29 +14,20 @@
  #about {
    background-color: #71268C;
    box-sizing: border-box;
-   height: 610px;
- }
- #about > img {
-   float: right;/*Posicionando a la imagen del celular a la derecha*/
-   height: 85%;
-   margin-top: 50px;/*Bajando 50px a la imagen*/
-   margin-right: 10%;/*Recorriendo ligeramente a la izquierda a la imagen*/
-   width: 40%;
  }
  #about > section > section > h1 {
    font-size: large;
  }
- #back-menu > img {
-
-   float: left;
-   height: 45px;
-   width: 70px;
-   margin-top: 3%;
-   margin-left: 5%;
- }
- #back-menu > section > a {
-   margin-right: 8%;
- }
+#back-menu > img {
+ float: left;
+ height: 45px;
+ width: 70px;
+ margin-top: 3%;
+ margin-left: 5%;
+}
+#back-menu > section > a {
+ margin-right: 8%;
+}
 #back-menu {
   background-color: #27193F;
   height: 100px;
@@ -44,72 +35,23 @@
   opacity: 0.3;
   width: 100%;
 }
-#bottom_become:hover {
-  background-color: white;
-  color: #FF00BF;
+ .border-sing:hover, #bottom-become:hover {
+    background-color: white;
+    color: #FF00BF;
 }
 #external_links {
-  background-color: #333447;
-  height: 400px;
+    background-color: #333447;
+    color: white;
+    margin-bottom: 0;
 }
-#intro {
-  box-sizing: border-box;
-  height: 520px;/*de 420 a 520 por el tañano del menu que sera fijado con fixed*/
-
-}
-#intro >img {
-  height: 100%;
-  width: 70%;
-}
-#intro > section > h1{
-  color: #9289BD;
-  font-size: x-large;
-  font-weight: bolder;
-  margin-top: 15%;
-  letter-spacing: 1px;
-  width: 50%;
-}
-#intro > section > h5 {
-  color: #9289BD;
-  font-weight: bolder;
-  letter-spacing: 1px;
-
-}
-#menu {
-  height: 100px;
-  width: 100%
-}
-
-#video, #video2 {/*Altura de la seccion donde estara el texto y el video*/
-  display: inline-block;
+iframe {
   height: 460px;
-}
-#video2 >iframe {/*Proporción que ocupara el video, y la posición a la q estará:Video a la izquierda*/
-  height: 100%;
-  right: 33%;
-  width: 66.5%;
-}
-
-#video > iframe {/*Proporción que ocupara el video, y la posición a la q estará:Video a la derecha*/
-  height: 100%;
-  left: 33%;
-  width: 66.5%;
-}
-.bottom-become {
-  background: #FF00Bf;
-  border: 2px solid #FF00BF;
-  border-radius: 5px;
-  color: white;
-  margin-top: 25px;
-  margin-right: 180px;
-  padding: 10px 10px;
 }
 .border-bottom {
   border: 2px solid white;
   padding: 10px;
   border-radius: 15%;
 }
-
 .column > img: hover {
   color: #FF00BF;
 }
@@ -121,28 +63,27 @@
   margin-top: 5%;
   padding-left: 5%;
   text-align: left;
-  width: 25%;
 }
 .column > img {
   display: block;
   margin-bottom: 40px;
   width: 70%;
 }
-
-.form {/*Formato de texto del formulario*/
+.form {
   display: inline-block;
   float: right;
   height: 10%;
   padding-left: 5%;
-  width: 25%;
 }
 
 .font-size {
   font-size: 25px;
 }
 .foot {
+  color: white;
   background-color: #333447;
-  height: 120px;
+  height: auto;
+  padding: 2em;
 }
 .float-right {
   float: right;
@@ -150,35 +91,86 @@
 .icon-twitter {
   color: white;
 }
-.mb-60 {
-  margin-bottom: 60px;
-}
 .mt-0 {
   margin-top: : 0;
 }
-.mb-0 {
-  margin-bottom: 0;
-}
-.text-white {/*Texto que acompaña a cada video, es lo mismo para los tres*/
+#text-white {
   display: inline-block;
-  padding-left: 5%;
+  padding: 3em;
+  /* padding-left: 5%; */
   vertical-align: top;
-  width: 28%;
 }
 .text-about {
   color: white;
   display: inline-block;
-  margin-top: 50px;/*Bajando 50px al texto*/
+  margin-top: 50px;
   padding-left: 10%;
   vertical-align: top;
-  width: 30%;
 }
-
 .white-letter {
   color: white;
-  /*letter-spacing: 2px;*/
   margin-top: 3%;
   margin-right: 5%;
   width: 30%;
+}
+/*NUEVOS ESTILOS CON MATERIALIZE*/
+#nav {
+  background-color: rgba(38,21,69,0.3);
+}
+.brand-logo {
+  width: 80%;
+  margin: 0.1em 1em;
+}
+.img-logo {
+  width: 8%;
+}
+.container-nav {
+  background-color: #27193F;
+}
+#nav-mobile > li > a {
+  font-size: 1.125rem;
+}
+.border-sing {
+  border: 1px solid currentColor;
+  border-radius: .5rem;
+  padding: 0.5em 1em;
+}
+#img-intro {
+  width: 97%;
+  height: auto;
+}
+#bottom-become {
+  background: #FF00Bf;
+  border: 2px solid #FF00BF;
+  border-radius: 5px;
+  color: white;
+  margin-top: 25px;
+  margin-right: 180px;
+  padding: 1em .75rem;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.logo-google {
+  margin-top: 0.5em;
+  width: 60%;
+}
+.mb-5 {
+  margin-bottom: 5em;
+}
 
+span[class^='icon-'] {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 0 0.25em;
+}
+.watch {
+  color: #FF00BF;
+}
+.letter-form {
+  color: #352384;
 }
