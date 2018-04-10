@@ -1,3 +1,132 @@
-/*
- * Estilos de tu proyecto
- */
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ input[type=text] {
+   color: #D3D3D3;
+   border: none;
+   border-bottom: 1px solid #9289BD;
+   font-size: 75%;
+   padding: 10px 408px 10px 1px;
+ }
+ #about {
+   background-color: #71268C;
+   box-sizing: border-box;
+ }
+ #about > section > section > h1 {
+   font-size: large;
+ }
+#back-menu > img {
+ float: left;
+ height: 45px;
+ width: 70px;
+ margin-top: 3%;
+ margin-left: 5%;
+}
+#back-menu > section > a {
+ margin-right: 8%;
+}
+.border-sing:hover, #bottom-become:hover {
+    background-color: white;
+    color: #FF00BF;
+}
+#external_links {
+    background-color: #333447;
+    color: white;
+    margin-bottom: 0;
+}
+iframe {
+  height: 460px;
+}
+.border-bottom {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 15%;
+}
+.foot {
+  color: white;
+  background-color: #333447;
+  height: auto;
+  padding: 2em;
+}
+.mt-0 {
+  margin-top: : 0;
+}
+#text-white {
+  display: inline-block;
+  padding: 3em;
+  vertical-align: top;
+}
+.text-about {
+  color: white;
+  display: inline-block;
+  margin-top: 50px;
+  padding-left: 10%;
+  vertical-align: top;
+}
+.white-letter {
+  color: white;
+  margin-top: 3%;
+  margin-right: 5%;
+  width: 30%;
+}
+#nav {
+  background-color: rgba(38,21,69,0.3);
+}
+.brand-logo {
+  width: 80%;
+  margin: 0.1em 1em;
+}
+.img-logo {
+  width: 8%;
+}
+.container-nav {
+  background-color: #27193F;
+}
+#nav-mobile > li > a {
+  font-size: 1.125rem;
+}
+.border-sing {
+  border: 1px solid currentColor;
+  border-radius: .5rem;
+  padding: 0.5em 1em;
+}
+#img-intro {
+  width: 97%;
+  height: auto;
+}
+#bottom-become {
+  background: #FF00Bf;
+  border: 2px solid #FF00BF;
+  border-radius: 5px;
+  color: white;
+  margin-top: 25px;
+  margin-right: 180px;
+  padding: 1em .75rem;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.logo-google {
+  margin-top: 0.5em;
+  width: 60%;
+}
+.mb-5 {
+  margin-bottom: 5em;
+}
+
+span[class^='icon-'] {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 0 0.25em;
+}
+.watch {
+  color: #FF00BF;
+}
+.letter-form {
+  color: #352384;
+}
