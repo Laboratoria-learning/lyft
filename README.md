@@ -1,29 +1,45 @@
-
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
+##Estructura de la página.
+![Lyft estructure](assets/images/lyft-structure.png)
 ***
 ## Previo al código
 
-1. Realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Realizar un [**Repositorio en GitHub**](https://github.com/RosyG/lyft-v3)
 
-2. En git bash **clonar** el fork en la máquina. Usando el comando `git clone` y su estructura normalmente se ve así:
+2. Subir la estructura de carpetas con el comando `git add .`, `git commit -m "comentario"` y `git push origin master`
 
-```bash
-git clone https://github.com/<nombre-de-usuario>/lyft.git
-```
+3. Configurar al proyecto con browserify y stylus por medio de comandos, como se muestra el paso a paso:
+  - `npm init`
+  - `press ok` para terminar de generar un package.json con la información agregada.
+  - `npm install --save-dev browserify`
+  - `npx browserify src/js/app.js -o ./public/bundle.js`
+  - `npm install i -D stylus`
+  - `npm run dev`
 
-   ## Links de videos utilizados:
-  - Estos son los videos de Youtube:
+  Este ultimo comando se escribe porque previamente en el archivo package.json ya se había escrito la siguiente relación:  
+   `"scripts": {
+      "bundle": "browserify ./src/js/app.js -o ./public/bundle.js",
+      "stylus": "stylus ./src/css/main.styl -o ./public/main.css",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "npm run bundle && npm run stylus"
+    }`
+
+  ## Links de videos utilizados:
+  - Estos son los videos de YouTube:
     * https://www.youtube.com/watch?v=fLSmUWOYpKw
     * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
+    * https://www.youtube.com/watch?v=gZjVSuVBiYs&feature=youtu.be
+  - Para agregar los videos, se obtuvo por medio del proveedor YouTube al buscar la etiqueta `iframe` que se puede obtener dando clic en `compartir` y después en `insertar`.
 
-##Estructura de las etiquetas dentro de Body.
-![Lyft estructure](docs/body-lyft.png)
+  ## Herramientas tecnológicas utilizadas:
+
+    * [Node.js](https://nodejs.org/en/), npm
+    * [jQuery](http://jquery.com/download/)
+    * [materialize](http://materializecss.com/)
+    * [Icomoon](https://icomoon.io/)
+    * [Browserify](http://browserify.org/)
+    * [Stylus](http://stylus-lang.com/)
+
+
+# Desarrollado para [Laboratoria](http://www.laboratoria.la/)
