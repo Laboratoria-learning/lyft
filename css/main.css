@@ -1,3 +1,45 @@
-/*
- * Estilos de tu proyecto
- */
+
+ .secondSection{
+     height: 90vh;
+     width: 100%;
+     background-image: linear-gradient(#76278F, #2B1E66);
+     
+     display: flex;
+     flex-direction: row;
+     padding-top: 10%;
+     padding-right: 0;
+ }
+
+ #textInfo {
+    font-family: 'Montserrat', sans-serif;
+     flex: 35;
+     color: white;
+     padding-left: 10%;
+     width: 50px;
+ }
+
+ #phonePhoto{
+     flex: 35;
+
+ }
+
+ #phonePhoto img{
+    width: 500px;
+}
+.infos{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+}
+
+.infoTitle{
+    margin: 0;
+}
+
+.infoText{
+    line-height: 5px;
+    width: 500px;
+}
+
+#info3 .infoText{
+    line-height: 20px;
+}
