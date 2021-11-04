@@ -1,3 +1,86 @@
-/*
- * Estilos de tu proyecto
- */
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    column-gap: 10px;
+    margin-right: 2rem;
+    margin-top: -30px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgLogo {
+    width: 100%;
+    margin-top: -90px;
+}
+
+.navbarItems{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    background-color: white;
+    width: 580px;
+    height: 55vmin;
+}
+
+.tittle {
+  color:#352384;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textLink {
+    text-decoration: underline;
+    padding-left: 25px;
+    font-size: 85%;
+}
+
+.text {
+  color: #728099;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.buttonForm {
+  background-color: #FF00BF;
+  color: white;
+  border-radius: 10px;
+  border:none;
+  height: 35px;
+  margin-top: 25px;
+  width: 25%;
+}
+
+.containerForm {
+    margin-left: 50px;
+}
+
+.tittleForm {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+}
+
+.subTittle {
+    margin-top: -25px;
+}
+
+.textDim {
+    font-size: 55%;
+}
+
+.spaceText {
+    margin-top: 25px;
+}
